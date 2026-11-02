@@ -1,0 +1,10 @@
+{
+  "domain": "churn",
+  "task": "classification",
+  "targets": [
+    "Churn"
+  ],
+  "exclude": [
+    "CustomerID"
+  ]
+}
