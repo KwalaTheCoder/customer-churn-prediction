@@ -1,0 +1,56 @@
+{
+  "evaluation": "supplied separate external test; never used in training or model selection",
+  "rows": 64374,
+  "data_file": "Churn/customer_churn_dataset-testing-master.csv",
+  "data_sha256": "330af932f2dc1cae917f3bd0fb29395c4021319dd906189b7dc257d0ad58a617",
+  "predictor_overlap_rows": 0,
+  "metrics": {
+    "accuracy": 0.5040233634697238,
+    "balanced_accuracy": 0.5287558764692378,
+    "f1_macro": 0.3835308209096152,
+    "roc_auc": 0.6212704851330162,
+    "average_precision": 0.545050257894357,
+    "classification_report": {
+      "0": {
+        "precision": 0.9803246433841614,
+        "recall": 0.058823529411764705,
+        "f1-score": 0.11098735869020437,
+        "support": 33881.0
+      },
+      "1": {
+        "precision": 0.488490720392679,
+        "recall": 0.998688223526711,
+        "f1-score": 0.656074283129026,
+        "support": 30493.0
+      },
+      "accuracy": 0.5040233634697238,
+      "macro avg": {
+        "precision": 0.7344076818884202,
+        "recall": 0.5287558764692378,
+        "f1-score": 0.3835308209096152,
+        "support": 64374.0
+      },
+      "weighted avg": {
+        "precision": 0.7473502777430754,
+        "recall": 0.5040233634697238,
+        "f1-score": 0.36918687381918486,
+        "support": 64374.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1993,
+        31888
+      ],
+      [
+        40,
+        30453
+      ]
+    ],
+    "classes": [
+      0.0,
+      1.0
+    ],
+    "positive_class": "1.0"
+  }
+}

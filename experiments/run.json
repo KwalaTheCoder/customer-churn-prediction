@@ -1,0 +1,10 @@
+{
+  "project": "customer-churn-prediction",
+  "exit_code": 0,
+  "seconds": 315.8,
+  "data_file": "Churn/customer_churn_dataset-training-master.csv",
+  "data_sha256": "a41be7b96fb85110521bf03d1530879e9ca94b9f5de19866757f6d184300fff7",
+  "tuned": false,
+  "folds": 5,
+  "seed": 42
+}
